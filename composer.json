@@ -6,9 +6,32 @@
   "authors": [
     {
       "name": "jadams",
-      "email": "email@example.com"
+      "email": "jan888@outlook.de"
     }
   ],
   "require": {
+    "php": ">=8.1",
+    "symfony/http-foundation": "^6.1",
+    "symfony/http-kernel": "^6.1",
+    "symfony/routing": "^6.1",
+    "symfony/runtime": "^6.1",
+    "symfony/config": "^6.1",
+    "symfony/error-handler": "^6.1",
+    "symfony/framework-bundle": "^6.1",
+    "symfony/console": "^6.1",
+    "symfony/yaml": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Personalstammblatt\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/runtime": true
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.1"
   }
 }

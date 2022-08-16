@@ -18,4 +18,4 @@ RUN curl -sS https://getcomposer.org/installer | php \
 
 WORKDIR /var/www/html/
 
-ENTRYPOINT ["php", "-S", "0.0.0.0:80", "-t", "/var/www/html/public/"]
+ENTRYPOINT ["php", "-S", "0.0.0.0:8080", "-t", "/var/www/html/public/"]
