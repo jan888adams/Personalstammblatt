@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: web_personalstammblatt
+    volumes:
+      - ./:/var/www/html/
+    ports:
+        - "80:8080"

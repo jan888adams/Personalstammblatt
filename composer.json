@@ -1,0 +1,14 @@
+{
+  "name": "dogpaper/personalstammblatt",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "Propetary",
+  "authors": [
+    {
+      "name": "jadams",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
