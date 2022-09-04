@@ -19,7 +19,8 @@
     "symfony/error-handler": "^6.1",
     "symfony/framework-bundle": "^6.1",
     "symfony/console": "^6.1",
-    "symfony/yaml": "^6.1"
+    "symfony/yaml": "^6.1",
+    "symfony/orm-pack": "^2.2"
   },
   "autoload": {
     "psr-4": {
@@ -32,6 +33,7 @@
     }
   },
   "require-dev": {
-    "symfony/var-dumper": "^6.1"
+    "symfony/var-dumper": "^6.1",
+    "symfony/maker-bundle": "^1.45"
   }
 }
