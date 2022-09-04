@@ -1,5 +1,9 @@
 <?php declare(strict_types=1);
 
+namespace Personalstammblatt\Entity;
+
+use DateTime;
+
 final class Person
 {
     private string $name;
@@ -14,6 +18,7 @@ final class Person
     private string $civilStatus;
     private bool $hasChildren;
     private bool $hasDisability;
+    private Address $address;
     private BankAccount $bankAccount;
     private TaxInformation $taxInformation;
     private HealthInsurance $healthInsurance;
@@ -205,5 +210,21 @@ final class Person
     {
         $this->workInformation = $workInformation;
         return $this;
+    }
+
+    /**
+     * @return Address
+     */
+    public function getAddress(): Address
+    {
+        return $this->address;
+    }
+
+    /**
+     * @param Address $address
+     */
+    public function setAddress(Address $address): void
+    {
+        $this->address = $address;
     }
 }

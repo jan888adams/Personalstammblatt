@@ -1,5 +1,7 @@
 <?php declare(strict_types=1);
 
+namespace Personalstammblatt\Entity;
+
 final class Address
 {
     public function __construct(

@@ -1,5 +1,9 @@
 <?php declare(strict_types=1);
 
+namespace Personalstammblatt\Entity;
+
+use DateTime;
+
 final class WorkInformation
 {
     private DateTime $startDate;
